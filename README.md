@@ -10,7 +10,7 @@ O repositório está organizado em pastas separadas, com um projeto por exercíc
 
 | Projeto | Tema | Apontamento |
 | --- | --- | --- |
-| `em breve` | — | — |
+| `exercicio01` | Classe Personagem (RPG) | Criar uma classe com atributos (nome, raça, classe, nível, vida, força) e métodos (atacar, tomar dano, andar, subir nível) |
 
 ## Desafios
 
