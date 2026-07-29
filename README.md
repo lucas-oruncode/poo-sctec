@@ -14,9 +14,9 @@ O repositório está organizado em pastas separadas, com um projeto por exercíc
 
 ## Desafios
 
-| Projeto | Tema | Apontamento |
+| Projeto | Tema | Conceitos POO |
 | --- | --- | --- |
-| `em breve` | — | — |
+| `DesafioBank` | Sistema Bancário | Abstração, Encapsulamento, Herança, Polimorfismo |
 
 ## Como executar
 
