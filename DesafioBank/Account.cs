@@ -4,7 +4,7 @@ namespace DesafioBank
     public class Account
     {
         public int AccountNumber { get; set; }
-        public string User { get; set; }
+        public Customer Customer { get; set; }
         private decimal Balance { get; set; }
         private List<Transaction> transactions = new List<Transaction>();
 
@@ -14,9 +14,9 @@ namespace DesafioBank
             Balance = 0;
         }
 
-        public Account(string user) : this()
+        public Account(Customer customer) : this()
         {
-            User = user;
+            Customer = customer;
         }
 
         
@@ -66,12 +66,13 @@ namespace DesafioBank
 
         public void PrintExtract()
         {
-            Console.WriteLine("--------------------");
+            Console.WriteLine("\n==================================");
             Console.WriteLine($"Número da Conta: {AccountNumber}");
-            Console.WriteLine($"Titular: {User}");
+            Console.WriteLine($"Titular: {Customer.Name}");
             Console.WriteLine($"Saldo Atual: {Balance:C2}");
-            Console.WriteLine("--------------------");
+            Console.WriteLine("==================================\n");
             DisplayExtract();
+            Console.WriteLine("==================================\n");
         }
 
     }
