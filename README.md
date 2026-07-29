@@ -18,6 +18,11 @@ O repositório está organizado em pastas separadas, com um projeto por exercíc
 | --- | --- | --- |
 | `DesafioBank` | Sistema Bancário | Abstração, Encapsulamento, Herança, Polimorfismo |
 
+### DesafioBank - Parte 2
+
+- **Nova classe**: Customer (cliente) com validação de CPF e email
+- **Adaptação**: Account agora utiliza Customer em vez de string
+
 ## Como executar
 
 Execute qualquer exercício individualmente com:
@@ -26,4 +31,4 @@ Execute qualquer exercício individualmente com:
 dotnet run --project exercicioXX
 ```
 
-Troque `exercicioXX` pelo diretório desejado, por exemplo `exercicio01` ou `Desafio01`.
+Troque `exercicioXX` pelo diretório desejado, por exemplo `exercicio01` ou `DesafioBank`.
