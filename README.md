@@ -18,10 +18,13 @@ O repositório está organizado em pastas separadas, com um projeto por exercíc
 | --- | --- | --- |
 | `DesafioBank` | Sistema Bancário | Abstração, Encapsulamento, Herança, Polimorfismo |
 
-### DesafioBank - Parte 2
+### DesafioBank - Etapas
 
-- **Nova classe**: Customer (cliente) com validação de CPF e email
-- **Adaptação**: Account agora utiliza Customer em vez de string
+| Etapa | Descrição | Conceitos |
+| --- | --- | --- |
+| 1 | Criar classes Account e Transaction | Abstração, Encapsulamento |
+| 2 | Criar classe Customer com validação de CPF e email | Encapsulamento |
+| 3 | Criar classe abstrata User e classes Customer/Employee com herança | Herança |
 
 ## Como executar
 
