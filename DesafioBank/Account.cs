@@ -5,20 +5,17 @@ namespace DesafioBank
     {
         public int AccountNumber { get; set; }
         public Customer Customer { get; set; }
+        public Employee Employee { get; set; }
         private decimal Balance { get; set; }
         private List<Transaction> transactions = new List<Transaction>();
 
-        public Account()
+        public Account(Customer customer, Employee employee)
         {
+            Customer = customer;
+            Employee = employee;
             AccountNumber = new Random().Next();
             Balance = 0;
         }
-
-        public Account(Customer customer) : this()
-        {
-            Customer = customer;
-        }
-
         
         public void Deposit(decimal amount)
         {
